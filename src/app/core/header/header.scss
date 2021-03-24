@@ -1,0 +1,58 @@
+@import '../../../styles/variables.scss';
+
+.header {
+    border-bottom: 2px solid #a5a9b1;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+.cloudBurstDropDown {
+  border: 1px solid $color-cloud-burst;
+  color: $color-white;
+  background: $color-solitude;
+  border-radius: 1.5rem;
+  padding: 0.1rem 0.75rem;
+}
+
+.cloudBurstDropDown:hover {
+  background: $color-cloud-burst;
+  color: $color-white;
+}
+
+.cloudBurstDropDown:focus {
+  background: $color-cloud-burst;
+  color: $color-white;
+}
+
+.cloudBurstDropDown:not(:disabled):not(.disabled):active {
+  background: $color-cloud-burst;
+  color: $color-white;
+}
+.cloudBurstDropDown:not(:disabled):not(.disabled):active,
+.cloudBurstDropDown:not(:disabled):not(.disabled).active,
+.show > .cloudBurstDropDown.dropdown-toggle {
+  background: $color-cloud-burst;
+  color: $color-white;
+}
+
+.buttonGrey {
+  background-color: $color-white !important;
+  border: 1px solid $color-pink-swan !important;
+  border-radius: 1rem !important;
+  color: $color-pink-swan !important;
+  font-weight: 100;
+}
+
+.navbar-toggler {
+  background-color: $color-azure !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.popover {
+  min-width: 270px !important;
+}

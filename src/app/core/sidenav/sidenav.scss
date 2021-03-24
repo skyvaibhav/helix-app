@@ -1,0 +1,35 @@
+@import "../../../styles/variables.scss";
+
+.sidenav {
+    left: 0px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    height: 100vh;
+}
+
+.rect {
+    height: 55px;
+    width: 55px;
+    background-color: #4e5664;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.highlight { 
+    background: white;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #4e5664;
+}
+
+.white-border{
+    border-color: $color-storm-grey;
+}

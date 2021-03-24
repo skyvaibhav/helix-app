@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "HOME",
+            "iconname": "HOME",
+            "pathName": "/"
+        },
+        {
+            "id": 2,
+            "name": "HELPDESK",
+            "dataname": "Helpdesk",
+            "pathName": "/helpdesk-overview"
+        },
+        {
+            "id": 3,
+            "name": "ASSETS",
+            "dataname": "Asset",
+            "pathName": "/asset-overview"
+        },
+        {
+            "id": 4,
+            "name": "WORK ORDERS",
+            "dataname": "Workorder",
+            "pathName": "/workorders-overview"
+        },
+        {
+            "id": 5,
+            "name": "ANALYTICS",
+            "dataname": "Analytics",
+            "pathName": "/analytics"
+        },     
+        {
+            "id": 6,
+            "name": "SPACE MANAGEMENT",
+            "dataname": "Space Management",
+            "pathName": "/space-management"
+        },
+        {
+            "id": 7,
+            "name": "PREVENTIVE MAINTENANCE",
+            "iconname": "PREVENTIVE MAINTENANCE",
+            "pathName": "/preventive-viewer"
+        },
+        {
+            "id": 8,
+            "name": "HR SETTINGS",
+            "dataname": "HR Settings",
+            "pathName": "/hr/employees"
+        },
+        {
+            "id": 9,
+            "name": "ADMIN SETUP",
+            "dataname": "Admin Setup",
+            "pathName": "/admin-setup"
+        }
+    ]
+}

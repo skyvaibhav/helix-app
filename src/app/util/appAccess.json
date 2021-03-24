@@ -1,0 +1,49 @@
+{
+    "menus": {
+        "Home": {
+            "name": "HOME",
+            "displayName": "Home",
+            "path": "/"
+        },
+        "Helpdesk": {
+            "name": "HELPDESK",
+            "displayName": "Helpdesk",
+            "path": "/helpdesk-overview"
+        },
+        "Asset Registry": {
+            "name": "ASSETS",
+            "displayName": "Assets",
+            "path": "/asset-overview"
+        },
+        "Work Orders": {
+            "name": "WORK ORDERS",
+            "displayName": "Work Orders",
+            "path": "/workorders-overview"
+        },
+        "Analytics": {
+            "name": "ANALYTICS",
+            "displayName": "Analytics",
+            "path": "/analytics"
+        },
+        "HSpace - Space Management": {
+            "name": "SPACE MANAGEMENT",
+            "displayName": "Space Management",
+            "path": "/space-management"
+        },
+        "Preventive Maintenance": {
+            "name": "PREVENTIVE MAINTENANCE",
+            "displayName": "Preventive Maintenance",
+            "path": "/preventive-viewer"
+        },
+        "HR Settings": {
+            "name": "HR SETTINGS",
+            "displayName": "HR Settings",
+            "path": "/hr/employees"
+        },
+        "Admin Setup": {
+            "name": "ADMIN SETUP",
+            "displayName": "Admin Setup",
+            "path": "/admin-setup"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+  "name": "helixsense",
+  "version": "1.26.0",
+  "description": "",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "dev-start": "webpack-dev-server --mode=development --env.TARGET_ENV=development",
+    "lint": "eslint --ext .jsx --ext .js .",
+    "lint:fix": "eslint --ext .jsx --ext .js . --fix",
+    "test:watch": "npm test -- --watch"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/react-hooks": "^3.4.2",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-fetch": "^3.0.6",
+    "css-loader": "^4.1.1",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "fetch-mock": "^9.10.7",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.4.2",
+    "path": "^0.12.7",
+    "react-test-renderer": "^16.13.1",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.4",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@babel/runtime": "^7.11.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.8.0",
+    "@testing-library/dom": "^7.28.1",
+    "async": "^3.2.0",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^6.3.2",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.0.6",
+    "d3": "^6.3.0",
+    "express": "^4.17.1",
+    "fetch-mock": "^9.10.7",
+    "file-loader": "^6.0.0",
+    "form-data": "^3.0.0",
+    "formik": "^2.1.5",
+    "html-webpack-plugin": "^4.3.0",
+    "http-proxy-middleware": "^1.0.5",
+    "interactjs": "^1.10.1",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.7",
+    "react": "^16.5.2",
+    "react-chartjs-2": "^2.10.0",
+    "react-dnd": "5.0.0",
+    "react-dnd-html5-backend": "5.0.1",
+    "react-dom": "^16.5.2",
+    "react-inlinesvg": "^2.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.1",
+    "react-svg": "^11.1.0",
+    "react-vertical-timeline-component": "^3.3.1",
+    "reactstrap": "^8.5.1",
+    "regenerator-runtime": "^0.13.7",
+    "sass-loader": "^9.0.2",
+    "svg-inline-loader": "^0.8.2",
+    "universal-cookie": "^4.0.4",
+    "yup": "^0.29.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
+    ]
+  }
+}
